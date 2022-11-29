@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int kareal(int sayi )
+{
+    return(sayi*sayi);
+}
+
+int main(){
+    int sayi;
+printf("karesi alinacak sayiyi gir:");
+scanf("%d",&sayi);
+
+
+printf("sayinin karesi=%d",kareal(sayi));
+
+
+
+    return 0;
+}
