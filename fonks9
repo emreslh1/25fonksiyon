@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+void kontrol(int sayi){
+    if (sayi %2==0)
+    {
+        printf("%d sayisi cifttir");
+    }
+   else
+   {
+      printf(" %d sayisi tektir");
+   }
+}
+int main(){
+int sayi;
+    printf("teklik veya ciftligi aranan sayi giriniz:");
+    scanf("%d",&sayi);
+
+    kontrol(sayi);
+return 0;
+}
