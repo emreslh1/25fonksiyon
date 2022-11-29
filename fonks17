@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+int alan(int kisakenar , int uzunkenar)
+{
+    return (kisakenar*uzunkenar);
+}
+
+int main(){
+
+int kisakenar,uzunkenar;
+
+printf("kisa kenari giriniz=");
+scanf("%d",&kisakenar);
+
+printf("uzun kenari giriniz=");
+scanf("%d",&uzunkenar);
+
+ printf("alan: %d",alan(kisakenar,uzunkenar));
+
+
+
+
+    return 0;
+}
