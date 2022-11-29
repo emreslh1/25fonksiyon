@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+void hata()
+{
+    printf("hata");
+}
+
+int main(){
+int sayi;
+printf("100 den sonra girilen sayilarin hatali olmasi\n\n");
+printf("sayi giriniz:");
+scanf("%d",&sayi);
+if(sayi<100)
+{
+    printf("giris basarili");
+}
+else 
+{
+    hata();
+}
+
+
+
+
+
+    return 0;
+}
