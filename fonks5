@@ -1,0 +1,23 @@
+#include <stdio.h>
+  
+  int carpim (int sayi1,int sayi2){
+
+    return(sayi1*sayi2);
+  }
+
+int main(){
+int sayi1,sayi2;
+printf("birinci sayiyi giriniz:");
+scanf("%d",&sayi1);
+
+printf("ikinci sayiyi giriniz:");
+scanf("%d",&sayi2);
+
+   printf("%d",carpim (sayi1 , sayi2));
+
+
+
+
+
+    return 0;
+}
