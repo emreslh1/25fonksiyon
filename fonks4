@@ -1,0 +1,41 @@
+#include<stdio.h>
+
+int hatabas(int hata){
+    printf("hata kodu %d",hata);     
+}
+
+int main(){
+
+    int vize, final ,ort;
+printf("vize notu gir:");
+scanf("%d",&vize);
+
+printf("final notu gir:");
+scanf("%d",&final);
+    ort=vize*0.6+final*0.4;
+
+    if(vize<50 && final<50)
+    {
+        printf("ortalama=%d",ort);
+    }
+    else if(vize<70 && final<70)
+    {
+        printf("ortalama=%d",ort);
+    }
+    else if (vize>=111 || final>=111)
+    {
+        hatabas(0);
+    }
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    return 0;
+}
