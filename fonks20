@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+  void cikar( )
+{
+  printf("\n\n\n");
+}
+
+int main(){
+int sayi;
+printf("iki basamakli sayilar\n\n");
+printf("sayi giriniz:");
+scanf("%d",&sayi);
+if (sayi>9 && sayi<100)
+{
+    printf("dogru giris");
+}
+else
+{
+    cikar();
+}
+
+
+
+
+    return 0;
+}
