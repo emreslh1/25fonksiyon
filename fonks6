@@ -1,0 +1,32 @@
+#include <stdio.h>
+  
+  void bolum(int hata){
+    printf("hata kodu %d",hata);
+  } 
+
+  int main(){
+int sayi;
+printf("sayi giriniz:");
+scanf("%d",&sayi);
+
+if(sayi%2==0)
+{
+    printf("sayi ikiye tam bolunur");
+}
+else
+{
+  bolum(0);
+}
+
+
+
+
+
+
+return 0;
+  }
+
+
+
+
+  
