@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+float carp(float sayi1 , float sayi2 , float sayi3 )
+{
+    return sayi1*sayi2*sayi3;
+}
+int main(){
+float sayi1,sayi2,sayi3;
+printf("ilk sayiyi giriniz=");
+scanf("%f",&sayi1);
+
+printf("ikinci sayiyi giriniz=");
+scanf("%f",&sayi2);
+
+printf("ucuncu sayiyi giriniz=");
+scanf("%f",&sayi3);
+
+printf("%f",carp(sayi1,sayi2,sayi3));
+
+
+
+    return 0;
+}
