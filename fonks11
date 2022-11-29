@@ -1,0 +1,34 @@
+#include <stdio.h>
+
+void ortalama(int vize , int final){
+ int sonuc;
+ sonuc=vize*0.6+final*0.4;
+
+  if(sonuc>90 && sonuc<100)
+ {
+    printf("ortalamaniz %d--AA",sonuc);
+ } 
+else if(sonuc>60 && sonuc<90)
+{
+    printf("ortalamaniz %d--BB",sonuc);
+}
+else
+{
+    printf("ortalamaniz %d--FF",sonuc);
+}
+}
+int main(){
+int vize,final;
+ printf("vize notu giriniz:");
+ scanf("%d",&vize);
+
+ printf("final notunu giriniz:");
+ scanf("%d",&final);
+
+  ortalama(vize,final);
+
+  return 0;
+}
+
+
+
