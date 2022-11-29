@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+void kutu(int en, int boy){
+int i,j;
+ for (i=0;i<=en;i++)
+ {
+    for (j=0;j<=boy;j++)
+    {
+        printf("*");
+    }
+    printf("\n");
+ }
+}
+ int main(){
+    int en,boy;
+  
+   printf("en sayisi:");
+   scanf("%d",&en);
+
+   printf("boy sayisi");
+   scanf("%d",&boy);
+
+kutu(en,boy);
+
+
+    return 0;
+ }
