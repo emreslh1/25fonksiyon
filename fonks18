@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+ int alan(int taban , int yukseklik)
+ {
+    return (taban*yukseklik/2);
+ }
+
+ int main(){
+int taban,yukseklik;
+
+printf("ucgenin taban uzunlugunu giriniz=");
+scanf("%d",&taban);
+
+printf("ucgenini yuksekligini giriniz=");
+scanf("%d",&yukseklik);
+
+printf("ucgenin alani: %d",alan(taban,yukseklik));
+
+
+
+    return 0;
+ }
