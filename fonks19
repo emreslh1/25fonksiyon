@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int fonk(int sayi)
+{
+        return (sayi*sayi*4);
+}
+
+int main(){
+
+int sayi;
+
+  printf("******girilen sayinin karesinin 4 katini alma****** \n\n");
+
+  printf("sayi giriniz=");
+  scanf("%d",&sayi);
+
+
+  printf("sonuc: %d ",fonk(sayi));
+
+
+
+
+
+
+
+    return 0;
+}
