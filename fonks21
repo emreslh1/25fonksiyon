@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+void buyuksayi(int sayi1 , int sayi2)
+{
+   printf("sayilar cift degildir");
+}
+int main(){
+int sayi1,sayi2;
+printf("ilk sayi giriniz=");
+scanf("%d",&sayi1);
+
+printf("ikinci sayi giriniz=");
+scanf("%d",&sayi2);
+
+if(sayi1%2==0 && sayi2%2==0)
+{
+    printf("sayilar cifttir");
+}
+else 
+{
+    buyuksayi(sayi1,sayi2);
+}
+
+    return 0;
+}
