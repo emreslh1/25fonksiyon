@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int usal(int taban , int us)
+{
+    int i,sonuc=1;
+    for(i=1;i<=us;i++)
+    {
+        sonuc*=taban;
+    }
+    return sonuc;
+}
+
+int main(){
+int taban,us;
+  printf("taban giriniz:");
+  scanf("%d",&taban);
+
+  printf("us giriniz:");
+  scanf("%d",&us);
+
+  printf(" sonuc=%d",usal(taban,us));
+
+
+
+    return 0;
+}
