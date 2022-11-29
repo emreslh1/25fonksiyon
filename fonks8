@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+void dongu(){
+int i;
+    for(i=0;i<=20;i+=2)
+    {
+        printf("%d\n",i);
+    }
+}
+int main(){
+   printf("cift sayilar\n");
+    dongu();
+    return 0;
+}
